@@ -7,6 +7,7 @@ from scipy.ndimage.interpolation import zoom
 from scipy.ndimage.filters import gaussian_filter
 from utils import smooth_gan_labels, aggregate, subPixelConv3d
 import nibabel as nib
+import numpy as np 
 import os
 from skimage.measure import compare_ssim as ssim
 from skimage.measure import compare_psnr as psnr
